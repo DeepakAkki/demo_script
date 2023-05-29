@@ -10,7 +10,7 @@ import GenericScript.Base_Page;
 public class Pom1 extends Base_Page
 {
 	//declaration
-		@FindBy(id="email")
+		@FindBy(id="email") 
 		private WebElement usname;
 		@FindBy(name="pass")
 		private WebElement pass;
