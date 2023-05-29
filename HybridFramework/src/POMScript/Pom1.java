@@ -15,7 +15,7 @@ public class Pom1 extends Base_Page
 		@FindBy(name="pass")
 		private WebElement pass;
 		@FindBy(xpath="//button[@name='login']")
-		private WebElement lgn_btn;
+		private WebElement lgn_btn; 
 		//initialization
 		public Pom1 (WebDriver driver )
 		{
